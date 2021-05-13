@@ -1,0 +1,36 @@
+.space-between {
+  justify-content: space-between;
+}
+
+.footer {
+  padding: 15px 20px 60px 20px;
+  font-size: 12px;
+  font-weight: 400;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.footer-nav {
+  margin-right: 10px;
+}
+
+.stick-footer {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #191d28;
+  color: white;
+  padding: 5px 20px;
+}
+.stickfooter-btn {
+  background-color: transparent;
+  border: 1px solid #66bcbdcc;
+  color: #66bcbdb0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 200;
+}
